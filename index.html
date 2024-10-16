@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Biometrics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class=" bg-gradient-to-b from-blue-600 to-gray-400  min-h-screen flex items-center justify-center">
+
+    <div class="container bg-gray-800 text-white rounded-lg shadow-lg p-6 max-w-lg min-w-[300px]">
+        <h1 class="text-3xl font-bold text-center mb-6 text-white">Star Wars Biometrics</h1>
+
+        <!-- Character Name Input -->
+        <input id="characterInput" type="text" placeholder="Enter character name" class="w-full p-3 mb-4 rounded bg-gray-700 border border-gray-400 text-black focus:outline-none focus:ring focus:ring-blue-500">
+
+        <!-- Fetch Button -->
+        <button id="fetchButton" class="w-full py-2 mb-4 bg-blue-400 text-gray-900 font-semibold rounded hover:bg-gray-200">
+            Fetch Biometrics
+        </button>
+
+        <!-- Output Text Area -->
+        <textarea id="outputBox" rows="5" placeholder="Character data will appear here..." class="w-full p-3 rounded bg-gray-700 border border-gray-400 text-white focus:outline-none resize-none"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
